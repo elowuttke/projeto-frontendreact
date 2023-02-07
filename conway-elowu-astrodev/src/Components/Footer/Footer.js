@@ -4,9 +4,9 @@ import { Rodape } from "./styled"
 export function Foot(){
     return(
         <Rodape>
-            <h1>Footer</h1>
-            <h3>Create by EloWu</h3>
-            <h3>2023</h3>
+            <p>Footer</p>
+            <p>Create by EloWu</p>
+            <p>2023</p>
         </Rodape>
     )
 }

@@ -2,14 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 export const Rodape = styled.footer`
-    height: 4rem;
+    height: 3rem;
     width: 100%;
-    background-color: #4d4143;
-    color: #e89a80;
-    padding-top: 1rem;
+    background-color: #12122b;
+    color: #aaaa91;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    gap: 2rem;
-    padding: 1rem;
+    padding: .9rem;
 `
