@@ -1,12 +1,12 @@
-import React from "react"
-import { Rodape } from "./styled"
+import React from "react";
+import { FooterContainer } from "./footerStyle";
 
-export function Foot(){
-    return(
-        <Rodape>
-            <p>Footer</p>
-            <p>Create by EloWu</p>
-            <p>2023</p>
-        </Rodape>
-    )
+export function Footer() {
+  return (
+    <FooterContainer>
+      <p>Footer</p>
+      <p>Create by EloWu</p>
+      <p>2023</p>
+    </FooterContainer>
+  );
 }
