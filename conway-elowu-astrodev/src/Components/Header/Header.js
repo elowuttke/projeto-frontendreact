@@ -1,12 +1,13 @@
 import React from "react";
-import { Cabecalho } from "./styled";
+import { HeaderContainer, HomePicture } from "./headerStyle";
+import homeImage from "../../assents/images/et_phone_home_detail-600x600.jpg";
 
-export function Head() {
+export function Header() {
   return (
-    <Cabecalho>
-      <h4>HOME</h4>
+    <HeaderContainer>
+      <HomePicture img src={homeImage} alt="imagem E.T. phone home" />
       <h1>ASTRODEV</h1>
-      <h4>CAMISETAS DIOU TRO MUNDU</h4>
-    </Cabecalho>
+      <h3>CAMISETAS DIOU TRO MUNDU</h3>
+    </HeaderContainer>
   );
 }
